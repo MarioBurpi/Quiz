@@ -26,7 +26,7 @@ public class MenuFragment extends Fragment {
         ImageButton imgButtonLeaderBoard = rootView.findViewById(R.id.imgbutton_menu_leaderboard);
         imgButtonPlay.setOnClickListener(this::onClick);
         imgButtonOptions.setOnClickListener(this::onClick);
-
+        imgButtonLeaderBoard.setOnClickListener(this::onClick);
         return rootView;
     }
 
@@ -42,6 +42,9 @@ public class MenuFragment extends Fragment {
                         .replace(R.id.fragment_container_main, new OptionsFragment())
                         .commit();
                 break;
+            case R.id.imgbutton_menu_leaderboard:
+                break;
+
         }
 
     }

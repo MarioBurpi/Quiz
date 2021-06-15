@@ -17,8 +17,6 @@ import java.util.List;
 import cat.inspedralbes.projecte2damb.quizio.model.Question;
 
 public class QuestionDownloader {
-
-
     /**
      * https://opentdb.com/api_config.php
      */
@@ -27,11 +25,12 @@ public class QuestionDownloader {
     public static final String URL_TRIVIA_REQUEST_CATEGORY = "&category=";
     public static final String URL_TRIVIA_REQUEST_DIFFICULTY = "&difficulty=";
     public static final String URL_TRIVIA_REQUEST_ENCODING = "&encode=url3986";
+    public static final String DEFAULT_AMOUNT = "50";
     public static List<Question> questionList;
 
     public static void requestTrivia(String amount, String category, String difficulty){
         if (amount.length() > 0) amount = URL_TRIVIA_REQUEST_AMOUNT + amount;
-            else amount =  URL_TRIVIA_REQUEST_AMOUNT + "15";
+            else amount =  URL_TRIVIA_REQUEST_AMOUNT + DEFAULT_AMOUNT;
         if (category.length() > 0) category = URL_TRIVIA_REQUEST_CATEGORY + category;
             else category = "";
         if (difficulty.length() > 0) difficulty = URL_TRIVIA_REQUEST_DIFFICULTY + difficulty;

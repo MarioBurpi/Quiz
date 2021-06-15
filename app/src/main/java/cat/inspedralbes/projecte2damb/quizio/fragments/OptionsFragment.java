@@ -1,11 +1,9 @@
 package cat.inspedralbes.projecte2damb.quizio.fragments;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,9 +13,7 @@ import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import cat.inspedralbes.projecte2damb.quizio.MainActivity;
 import cat.inspedralbes.projecte2damb.quizio.R;
-import cat.inspedralbes.projecte2damb.quizio.fragments.GameFragment;
 import cat.inspedralbes.projecte2damb.quizio.util.QuestionDownloader;
 
 public class OptionsFragment extends Fragment {
