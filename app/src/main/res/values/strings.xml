@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Quiz/IO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="menu_title">TRIVIALINGUS</string>
+    <string name="number_of_questions">Number of questions :</string>
+    <string name="preferred_category">Preferred category :</string>
+    <string name="difficulty">Difficulty :</string>
+    <string name="easy">easy</string>
+    <string name="medium">medium</string>
+    <string name="hard">hard</string>
+    <string-array name="categories">
+        <item>01 General knowledge</item>
+        <item>02 Books</item>
+        <item>03 Films</item>
+        <item>04 Music</item>
+        <item>05 Musicals &amp; theatres</item>
+        <item>06 Television</item>
+        <item>07 Video-games</item>
+        <item>08 Board-games</item>
+        <item>09 Science &amp; nature</item>
+        <item>10 Computers</item>
+        <item>11 Mathematics</item>
+        <item>12 Mythology</item>
+        <item>13 Sports</item>
+        <item>14 Geography</item>
+        <item>15 History</item>
+        <item>16 Politics</item>
+        <item>17 Art</item>
+        <item>18 Celebrities</item>
+        <item>19 Animals</item>
+        <item>20 Vehicles</item>
+        <item>21 Comics</item>
+        <item>22 Science: Gadgets</item>
+        <item>23 Japanese anime &amp; manga</item>
+        <item>24 Cartoon &amp; animations</item>
+        <item>25 Art</item>
+    </string-array>
+</resources>
